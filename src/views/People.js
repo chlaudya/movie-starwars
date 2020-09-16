@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { Tabs, Button } from "antd";
 import { fetchAllPeople } from "../store/actions/people";
-import "../assets/styles/moviedet.scss";
 import MovieSlide from "../components/MovieSlide";
 import { Card } from "antd";
 

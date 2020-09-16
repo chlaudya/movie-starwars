@@ -7,7 +7,6 @@ import {
   LinkedinOutlined,
 } from "@ant-design/icons";
 import { Link } from "react-router-dom";
-import MobileStoreButton from "react-mobile-store-button";
 
 const Footer = () => {
   return (
@@ -54,11 +53,6 @@ const Footer = () => {
         </div>
 
         <div className="footer__footer-right">
-          <h3 className="title"> Download </h3>
-          <div className="store">
-            <MobileStoreButton store="android" className="android" />
-            <MobileStoreButton store="ios" className="ios" />
-          </div>
           <h5 className="title"> Social Media </h5>
           <div className="sosmed-list">
             <FacebookOutlined className="sosmed" />
